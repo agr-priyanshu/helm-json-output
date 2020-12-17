@@ -66,6 +66,9 @@ function ParseResources(resourcesStr) {
  * The output of this method is one text bulk of ALL the resources
  */
 function ExtractResources(helmRawOutput) {
+  // helmv3 updates on no resources
+  return '';
+  
   // Sanity
   if ((!helmRawOutput) || (helmRawOutput.trim() === '')) {
     return '';
