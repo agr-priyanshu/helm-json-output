@@ -12,7 +12,7 @@ Example usage:
 
 ## Installtion
 
-`helm plugin install https://github.com/Microsoft/helm-json-output --version master`
+`helm plugin install https://github.com/agr-priyanshu/helm-json-output --version master`
 
 ## Installing the plugin locally
 
